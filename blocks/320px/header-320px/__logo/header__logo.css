@@ -1,0 +1,10 @@
+.header__logo {
+
+    /*
+    max-width: 176px;
+    max-height: 52px;
+    */
+    width: 142px;
+    height: 42px;
+    object-fit: contain;
+} 

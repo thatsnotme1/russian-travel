@@ -1,0 +1,36 @@
+.header {
+    /*
+width: 100vh;
+min-height: 42px;
+max-height: 52px;
+min-width: 288px;
+max-width: 1184px;
+*/
+height: 42px;
+width: 288px;
+padding-top: 16px;
+padding-left: 16px;
+padding-right: 16px;
+background-color: red;
+display: flex;
+
+}
+
+.header__logo {
+
+    /*
+    max-width: 176px;
+    max-height: 52px;
+    */
+    width: 142px;
+    height: 42px;
+}
+
+.page {
+    width: 320px;
+    background-color: #2a2c2f;
+    
+    }
+.text {
+    color: purple;
+}
