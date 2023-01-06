@@ -1,0 +1,21 @@
+.header {
+    /*
+width: 100vh;
+min-height: 42px;
+max-height: 52px;
+min-width: 288px;
+max-width: 1184px;
+*/
+min-height: 42px;
+height: 52px;
+width: auto;
+padding-top: 28px;
+margin-left: 24px;
+margin-right: 24px;
+margin-bottom: 48px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+box-sizing: border-box;
+}

@@ -6,17 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Konstantin">
 
-  <link rel="stylesheet" href="pages/index.css">
+  <link rel="stylesheet" href="pages/index 768px.css">
   <title>Путешествия по России</title>
 </head>
 <body>
     <div class="page">
         <header class="header">
             <img src="../russian-travel/images/header-logo.svg" alt="Логотип" class="header__logo">
-            <div class>
+            <span>
                 <a class="header__lang-link" href="#">Ru</a>
                 <a class="header__lang-link" href="#">En</a>
-            </div>
+            </span>
         </header>
         <main>
             <section class="lead">
@@ -28,7 +28,7 @@
             </section>
             
             <section class="intro">
-                <h2 class="intro__title">Чего мы там не видели?</h2>
+                <h2 class="intro__title">Чего мы там <br> не видели?</h2>
                 <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, 
                     но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно  без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» 
                     и проехала 20 тысяч километров
@@ -47,8 +47,19 @@
 
             </section>
 
-            <section class="photo-grid">
-
+            <section class="photo-grid1">
+                <img src="../russian-travel/images/photo-grid-train.jpg" class="photo-grid__item" alt="">
+                <img src="../russian-travel/images/photo-grid-atharva-tulsi.jpg" class="photo-grid__item" alt="">
+                <img src="../russian-travel/images/photo-grid-tuman.jpg" class="photo-grid__item" alt="">
+                <img src="../russian-travel/images/photo-grid-sochi.jpg" class="photo-grid__item" alt="">
+                <img src="../russian-travel/images/photo-grid-arisa.jpg" class="photo-grid__item" alt="">
+                <img src="../russian-travel/images/photo-grid-baikal.jpg" class="photo-grid__item" alt="">
+                <img src="../russian-travel/images/photo-grid-elbrus.jpg" class="photo-grid__item" alt="">
+                <img src="../russian-travel/images/photo-grid-kondratiev.jpg" class="photo-grid__item" alt="">
+                <img src="../russian-travel/images/photo-grid-kamchatka-1.jpg" class="photo-grid__item" alt="">
+                <img src="../russian-travel/images/photo-grid-kamchatka-2.jpg" class="photo-grid__item" alt="">
+                <img src="../russian-travel/images/photo-grid-baikal-2.jpg" class="photo-grid__item" alt="">
+                <img src="../russian-travel/images/photo-grid-ergaki.jpg" class="photo-grid__item" alt="">
             </section>
 
             <section class="places">
@@ -114,23 +125,21 @@
             </section>
 
             <section class="cover">
-                <h2 class="cover__title">До Байкала 
-                    «на собаках»</h2>
+                <h2 class="cover__title">До Байкала «на собаках»</h2>
                 <h3 class="cover__subtitle">По мотивам учебной темы 
                     о Транссибе — путешествие 
                     от столицы до Байкала на электричках.</h3>
-                <div class="cover__overlay"></div>
-                <img src ="../russian-travel/images/cover-trains.jpg" class="cover__background">
+                <img src ="../russian-travel/images/cover-trains.jpg" class="cover__background cover__overlay">
 
 
             </section>
             <footer class="footer">
-                <ul class="footer__link-list">
-                    <li><a class="footer__link-list_link" href="#">Карты</a></li>
-                    <li><a class="footer__link-list_link" href="#">Погода</a></li>
-                    <li><a class="footer__link-list_link" href="#">Расписание</a></li>
-                    <li><a class="footer__link-list_link" href="#">Календарь</a></li>
-                    <li><a class="footer__link-list_link" href="#">Путешествия</a></li>
+                <ul class="footer__list">
+                    <li class="footer__list_element"><a class="footer__list_link" href="#">Карты</a></li>
+                    <li class="footer__list_element"><a class="footer__list_link" href="#">Погода</a></li>
+                    <li class="footer__list_element"><a class="footer__list_link" href="#">Расписание</a></li>
+                    <li class="footer__list_element"><a class="footer__list_link" href="#">Календарь</a></li>
+                    <li class="footer__list_element"><a class="footer__list_link" href="#">Путешествия</a></li>
                 </ul>
             <p class="footer__copyright">© 2020. Впишите своё имя</p>
             </footer>

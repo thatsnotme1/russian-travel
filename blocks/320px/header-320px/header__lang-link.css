@@ -2,10 +2,13 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 111%;
-    text-align: right;
+    font-size: 24px;
+    line-height: 117%;
     padding-left: 18px;
     color: #FFFFFF;
+    text-decoration: none;
+}
+.header__lang-link:first-of-type {
+    padding: 0;
     text-decoration-line: underline;
 }

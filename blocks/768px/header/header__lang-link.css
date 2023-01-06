@@ -1,0 +1,14 @@
+.header__lang-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 111%;
+    padding-left: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.header__lang-link:first-of-type {
+    padding: 0;
+    text-decoration-line: underline;
+}
